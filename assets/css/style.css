@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+html, body {
+	padding: 0;
+	margin: 0;
+	background-color: #0a1119;
+	color: white;
+}
+
+header.bar {
+	padding: 0 15px;
+	margin: 0;
+	display: flex;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	width: -webkit-fill-available;
+	height: 70px;
+	justify-content: flex-end;
+	z-index: 200;
+	border-bottom: 1px solid rgb(255 255 255 / 10%);
+}
+header.bar font {
+	padding: 0;
+	margin: 0 10px;
+	display: flex;
+	align-items: center;
+	width: -webkit-fill-available;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	font-weight: 900;
+	/* position: absolute; */
+	top: 0;
+	left: 0;
+	pointer-events: none;
+	user-select: none;
+	z-index: 1;
+	/* opacity: .1; */
+}
+header.bar ol {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	display: flex;
+	height: 70px;
+	user-select: none;
+}
+header.bar li {
+	padding: 0 15px;
+	margin: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: transparent;
+	cursor: pointer;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 13px;
+	font-weight: 400;
+}
+header.bar li.active {
+	border-bottom-color: #024ea5;
+}
+header.bar li:hover {
+	background: rgba(255,255,255,.05);
+}
+
+div.you {
+	padding: 0;
+	margin: 0;
+	width: -webkit-fill-available;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	margin-top: 40px;
+	pointer-events: none;
+	user-select: none;
+}
+div.you img {
+	padding: 0;
+	margin: 0;
+	width: 65%;
+	position: relative;
+	z-index: 10;
+}
+div.you h2 {
+	padding: 0px 80px;
+	margin: 0;
+	font-weight: 800;
+	font-size: 40px;
+	font-family: 'Montserrat', sans-serif;
+	width: -webkit-fill-available;
+	position: absolute;
+	z-index: 11;
+}
+div.you h2 name {
+	color: #f8f400;
+	display: block;
+}
+div.you h2 name tot {
+	color: #ffffff;
+}
+div.you h2 sub {
+	display: block;
+	font-weight: 200;
+	font-size: 21px;
+	max-width: 540px;
+	margin-top: 20px;
+}
