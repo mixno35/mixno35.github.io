@@ -3,25 +3,49 @@
 <head>
 	<meta charset="utf-8">
 	<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
-	<link rel="stylesheet" type="text/css" href="/assets/css/style.css?v=1">
-	<title>GitHub | mixno35 | Портфолио</title>
+	<link rel="stylesheet" type="text/css" href="/assets/css/style.css?v=2">
+	<title>Портфолио | mixno35</title>
+	<meta name="theme-color" content="#0a1119">
 </head>
 <body>
-	<header class="bar">
+	<header class="bar" id="bar-top">
 		<font>Портфолио</font>
 
 		<ol>
 			<li>Проекты</li>
-			<li>Дизайн</li>
+			<li>Графика</li>
 		</ol>
 	</header>
 
 	<div class="you">
 		<h2>
 			Привет, я <name>Александр<!-- <tot>.</tot> --></name>
-			<sub>Я занимаюсь дизайном около пяти лет, у меня есть опыт создания дизайна для веб-сайтов, мобильных приложений, дизайна баннеров и т.д. Я также разрабатываю простые мобильные приложения и веб-сайты. Я никогда не работал с крупными брендами, но все еще впереди..</sub>
+			<sub>Я занимаюсь дизайном около пяти лет, у меня есть опыт создания дизайна для веб-сайтов, мобильных приложений, дизайна баннеров и т.д. Я также разрабатываю простые мобильные приложения и веб-сайты. Я никогда не работал с брендами или стартапами, но все еще впереди...</sub>
+			<div class="social">
+				<span><img src="/assets/icons/icons8-vk.svg"></span>
+				<span><img src="/assets/icons/icons8-telegram.svg"></span>
+				<span><img src="/assets/icons/icons8-instagram.svg"></span>
+				<span><img src="/assets/icons/icons8-github.svg"></span>
+			</div>
 		</h2>
 		<img src="/assets/images/you-transparent.png">
 	</div>
+
+	<div class="content" id="cont-projects">
+		<h1>Проекты</h1>
+		<!-- <h5>Здесь собраны все мои проекты, в которых я участвовал или создавал их в одиночку.</h5> -->
+	</div>
+
+	<script type="text/javascript">
+		window.addEventListener("scroll", (event) => {
+		    let scroll = this.scrollY;
+		    // console.log(scroll);
+		    if (scroll > 40) {
+		    	document.getElementById('bar-top').classList.add('scrolled');
+		    } else {
+		    	document.getElementById('bar-top').classList.remove('scrolled');
+		    }
+		});
+	</script>
 </body>
 </html>
