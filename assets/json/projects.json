@@ -1,0 +1,74 @@
+[
+	{
+		"name":"Element Inspector",
+		"small_desc":"Удобное приложение для редактирования веб-сайтов/веб-страниц.",
+		"desc":"Редактируйте любые веб-сайты и веб-страницы, даже если у вас нет доступа к компьютеру.",
+		"image":"ei.png",
+		"date":"27.07.2022",
+		"link":"",
+		"android":true,
+		"web":false,
+		"ios":false,
+		"pc":false
+	},
+	{
+		"name":"CLEO: SA",
+		"small_desc":"Простой менеджер CLEO скриптов на Android для GTA: San Andreas.",
+		"desc":"Простой и очень удобный менеджер CLEO скриптов. Удаляйте, добавляйте, деактивируйте/активируйте скрипт.",
+		"image":"cleo-sa.png",
+		"date":"27.07.2022",
+		"link":"",
+		"android":false,
+		"web":true,
+		"ios":false,
+		"pc":false
+	},
+	{
+		"name":"APK Decompiler",
+		"small_desc":"Легко и просто получите SMALI код Android приложения.",
+		"desc":"Лекго и просто получите smali код Android приложения или соберите его обратно в Android приложение. Powered by. APKTOOL.",
+		"image":"apk.png",
+		"date":"27.07.2022",
+		"link":"https://github.com/mixno35/APKDecompiler",
+		"android":false,
+		"web":false,
+		"ios":false,
+		"pc":true
+	},
+	{
+		"name":"Web IDE",
+		"small_desc":"Простое мобильное IDE для Android.",
+		"desc":"Простое мобильное IDE для Android. Создавайте простые веб-сайты/веб-страницы на Android. Поддержка форматов файлов: HTML, JSON, CSS, SCSS, JS, TXT. Синтаксис кода, подсказки при написании кода (HTML, CSS).",
+		"image":"web-ide.png",
+		"date":"27.07.2022",
+		"link":"",
+		"android":true,
+		"web":false,
+		"ios":false,
+		"pc":false
+	},
+	{
+		"name":"Social-Network",
+		"small_desc":"Прстая и в тоже время функциональная соц. сеть \"QWAKER.fun\".",
+		"desc":"Простая социальная сеть для общения через личные сообщения и публикации.",
+		"image":"sn.png",
+		"date":"27.07.2022",
+		"link":"https://qwaker.fun",
+		"android":false,
+		"web":true,
+		"ios":false,
+		"pc":false
+	},
+	{
+		"name":"SAMP Name",
+		"small_desc":"Онлайн-генератор Role Play имени для SAMP(a) с отдельной генерацией.",
+		"desc":"Создайте имя для SAMP Role PLay легко и просто, а благодаря возможности отключить генерацию имени или фамилии отдельно друг от друга, позволяет сгенерировать идеальное соотношение имени и фамилии. Списки помогут вам выбрать имя и фамилию, не генерируя их. Role Play Validation - помогает выяснить, является ли имя Role PLay.",
+		"image":"samp-nm.png",
+		"date":"27.07.2022",
+		"link":"https://mixno35.github.io/samp-name",
+		"android":false,
+		"web":true,
+		"ios":false,
+		"pc":false
+	}
+]
