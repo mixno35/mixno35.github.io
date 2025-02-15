@@ -1,8 +1,0 @@
-:root {
-    --size-header-width: 100%;
-    --size-header-height: 72px;
-
-    --size-content-container-width: 100%;
-    --size-content-container-width-max: 1700px;
-    --size-content-container-margin: var(--global-container-margin);
-}
